@@ -1,0 +1,109 @@
+.youtube-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 30px;
+}
+
+@media (max-width : 1076px){
+    .youtube-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width : 790px){
+    .youtube-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+.first-channel{
+    height: 100%;
+}
+
+.second-channel{
+    height: 100%;
+}
+
+.third-channel{
+    height: 100%;
+}
+
+.thumbnail-div{
+    margin-bottom: 10px;
+    width: 100%;
+    position: relative;
+}
+
+.time{
+    position:absolute;
+    bottom:10px;
+    right: 10px;
+    font-family: roboto;
+    background-color: rgba(0,0,0,0.9);
+    font-size: 12px;
+    color: white;
+    padding: 2px 4px;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.thumbnail{
+    width:100%;
+}   
+
+.channel-grid{
+    display: grid;
+    grid-template-columns: 40px 1fr;
+}
+
+.channel-grid2{
+    display: grid;
+    grid-template-columns: 40px 1fr;
+}
+
+.channel-logo{
+    vertical-align: top;
+   
+}
+
+.channel-photo{
+    width:36px;
+    height: 36px;
+    margin-top: 0px;
+    border-radius: 80px;
+}
+
+.channel-info{
+    width:220px;
+    padding-left: 5px;
+
+}
+
+.video-title{
+    margin-top:0px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    line-height: 20px;
+}
+
+.channel-owner{
+    font-size: 12px;
+    font-family: Roboto;
+    margin-bottom: 4px;
+    color: #606060;
+}
+
+.video-stats{
+    margin-top: 0px;
+    font-size: 12px;
+    font-family: Roboto;
+    color: #606060;
+    margin-bottom: 5px;
+}
+

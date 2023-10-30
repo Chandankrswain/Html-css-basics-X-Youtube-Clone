@@ -1,0 +1,22 @@
+p{
+    text-align: center;
+    margin-top:0px;
+    margin-bottom: 0px;
+}
+
+.model{
+    font-size:40px;
+    font-weight: bold;
+    text-align: center;
+    font-family: montserrat;
+    margin-bottom: 3px;    
+}
+
+.order-online{
+    font-size:20px;
+    font-family: montserrat;
+}
+
+.touch{
+    text-decoration: underline;
+}

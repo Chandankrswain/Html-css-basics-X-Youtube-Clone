@@ -1,0 +1,124 @@
+.form-name,.form-email{
+    border-radius: 5px ;
+    border-width: 1px;
+    padding : 5px;
+    font-size: 15px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.survey-para{
+    font-size: 18px;
+    text-align: justify;
+    width: 250px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.yes-button,.no-button{
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+.google-logo{
+    width: 280px;
+    object-position: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    
+}
+
+.searchbar2{
+    font-size: 16px;
+    border:none;
+    padding: 10px 15px;
+    width: 600px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    font-family: arial;
+    display: block;
+}
+
+.signup-fname,.signup-lname{
+    padding: 7px 10px;
+    width:100px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    color: grey;
+    margin-bottom: 8px;
+    font-family: Arial;
+}
+
+.signup-email{
+    display: block;
+    padding: 7px 10px;
+    width:226px;
+    border-radius: 5px;
+    border-width: 1px ;
+    border-style: solid;
+    color: grey;
+    font-family: Arial;
+    margin-bottom: 8px;
+}
+
+.sign-up{
+    display: block;
+    color: white;
+    background-color: rgb(0, 70, 175);
+    width:248px;
+    border:none;
+    border-radius: 5px;
+    padding: 10px 10px;
+    font-weight: bold;
+}
+
+.uber-title{
+    font-size:40px;
+    font-family:arial;
+    margin-bottom: 15px;
+}
+
+.pickup{
+    display: block;
+    margin-bottom: 5px;
+    padding: 12px 14px;
+    width: 400px;
+    background-color: #f6f6f6;
+    color: rgb(75, 75, 75);
+    border: none;
+}
+
+.destination{
+    display: block;
+    margin-bottom: 30px;
+    padding: 12px 14px;
+    width: 400px;
+    background-color: #f6f6f6;
+    color: rgb(75, 75, 75);
+    border: none;
+}
+
+.pickup::placeholder,.destination::placeholder {
+    color: rgb(75, 75, 75);
+  }
+
+.request-now{
+    background-color: black;
+    color: white;
+    border:none;
+    padding:10px 14px;
+    margin-right: 8px;
+}
+
+.schedule-later{
+    background-color:#f6f6f6;
+    color: black;
+    border:none;
+    padding:10px 14px;
+}

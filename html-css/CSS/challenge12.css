@@ -1,0 +1,168 @@
+.outer-flex{
+    display : flex;
+    flex-direction: column; 
+    width:300px;
+    border : 1px solid gray;
+    border-radius: 5px;
+    
+}
+
+.inner-flex{
+    display: flex; 
+    flex-direction: row; 
+    padding: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.left-para{
+    flex:1 ;
+    margin: 0px;
+    padding-top: 2px;
+    
+}
+
+
+.right-para{
+    width: 20px;
+    margin: 0px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding:2px 9px;
+    background-color: rgb(12, 44, 223);
+    border-radius: 10px; 
+    text-align: center;
+}
+
+.right-para2{
+    width: 20px;
+    margin: 0px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding:2px 4px;
+    background-color: rgb(12, 44, 223);
+    border-radius: 10px; 
+    text-align: center;
+}
+
+.right-para3{
+    width: 20px;
+    margin: 0px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding:2px 4px;
+    background-color: rgb(12, 44, 223);
+    border-radius: 10px; 
+    text-align: center;
+}
+
+
+.main-flex{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(90, 34, 142);
+    align-items: center;
+    justify-content:space-between ;
+    height: 50px;
+}
+
+.left-flex{
+    width: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+}   
+
+.middle-flex{
+    width:650px;
+    max-width:650px ;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.search-bar{
+    width: 600px;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 18px;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.right-flex{
+    width: 100px;   
+}
+
+.download-button{
+    border: 1px solid white;
+    color: white;
+    padding: 8px 15px;
+    background-color: rgb(90, 34, 142);
+    font-family: Arial, Helvetica, sans-serif;
+}   
+
+
+
+.main-div{
+    display:flex;
+    flex-direction: row;
+    width: 300px;
+    align-items: center;
+    margin-bottom:10px;
+}
+
+.profile-div{
+    height: 100%;
+}
+
+.profile-pic{
+    width: 40px;
+    height:40px;
+    border-radius: 80px;
+}
+
+.para-div{
+    flex: 1;
+    padding-left: 10px;
+}
+
+p{
+    margin: 0px;
+}
+
+.one{
+    margin-bottom:2px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:12px;
+}
+
+.two{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    margin-bottom: 2px;
+}
+.three{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:11px;
+    color:gray;
+
+}
+
+.follow-button{
+    padding: 5px 6px;
+    color: white;
+    font-family: arial;
+    font-weight: bold;
+    background-color: rgb(0, 107, 221);
+    border-radius: 4px;
+    border: none;
+    font-size: 12px;
+}

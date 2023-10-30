@@ -1,0 +1,79 @@
+<button class="Back">
+  Back
+</button>
+<a href="/">1</a>
+<a href="/">2</a>
+<a href="/">3</a>
+<a href="/">4</a>
+<a href="/">5</a>
+<button class="Next">
+  Next
+</button>
+
+<button class="Stretch">Stretch</button>
+<button class="shadow">Shadow</button>
+<br>
+<br>
+<button class="One">One</button>
+<button class="One">Two</button>
+<button class="One">Three</button>
+
+<style>
+
+  .stretch{
+    color: white;
+    background-color: rgb(18, 83, 9);
+    border:none;
+    padding: 6px 10px;
+    cursor: pointer;
+    transition: padding 0.45s;
+  }
+
+  .stretch:hover{
+    padding: 15px 30px;
+  }
+
+  .Shadow{
+    color: white;
+    background-color: rgb(18, 83, 9);
+    border:none;
+    padding: 6px 10px;
+    cursor: pointer;
+    transition: padding 0.65s, opacity 0.15s;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.7);
+  }
+
+  .Shadow:active{
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.7);
+    margin-top: 1px;
+    margin-left: 1px;
+    opacity: 0.7;
+  }
+
+  .One{
+    color: white;
+    background-color: rgb(18, 83, 9);
+    border:none;
+    padding: 6px 10px;
+    cursor: pointer;
+    transition: padding-left 0.15s, padding-right 0.15s, margin 0.15s;
+    margin: 10px;
+  }
+  
+  .One:hover{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0px;
+  }
+
+  .Back{
+    padding: 10px 10px;
+    cursor: pointer;
+  }
+  
+  .Next{
+    cursor: pointer;
+    padding: 10px 10px;
+  }
+  
+</style>

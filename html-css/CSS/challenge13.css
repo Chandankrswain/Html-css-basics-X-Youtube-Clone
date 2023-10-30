@@ -1,0 +1,69 @@
+.twitter-container{
+    display: flex;
+    width: 400px;
+}
+
+.left-content{
+    padding: 1px 5px;
+}
+
+.profile-img1{
+    margin-top:0px;
+    height: 40px;
+    width: 40px;
+    border-radius: 80px;
+}
+
+.right-content{
+    padding:  1px 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.account-holder-name{
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.tweet-descritpion{
+    font-size: 15px;
+    line-height: 19px;
+}
+
+.lower-container{
+    display:flex;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-top: 10px;
+    overflow: hidden;
+    align-items: center;
+}
+
+.video-preview{
+    background-color: rgb(176, 176, 176);
+    height: 100px;
+    width: 100px;   
+}
+
+.bottom-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+
+}
+
+.youtube-link{
+    font-size: 15px;
+    padding: 0px 10px;
+    margin-bottom: 5px ;
+    color: rgb(90, 90, 90);
+    
+}
+
+.youtube-title{
+    padding: 0px 10px;
+    font-size: 15px;
+    line-height: 18px;
+}

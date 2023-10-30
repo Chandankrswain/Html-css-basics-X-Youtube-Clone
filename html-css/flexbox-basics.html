@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="CSS/challenge12.css">
+        <title>
+            Flex assignment
+        </title>
+    </head>
+    <body>
+        <!--12a-->
+        <div style="display: flex;">
+          <div style="background-color: skyblue; width: 200px;">200px</div>  
+          <div style="background-color: lightpink; width: 75px;">75px</div>  
+        </div>
+        <br>
+        <br>
+               
+       <!--12b-->
+       <div style="display: flex;">
+        <div style="background-color: skyblue; width: 200px;">200px</div>  
+        <div style="background-color: lightpink; flex:1;">75px</div>  
+        <div style="background-color: lightgreen; width: 75px;">75px</div>  
+       </div>
+
+       <br>
+       <br>
+
+       <!--12C-->
+       <div style="display: flex; justify-content: space-between;">
+        <div style="background-color: skyblue; width: 75px;">75px</div>  
+        <div style="background-color: lightpink; width: 75px;">75px</div>  
+        <div style="background-color: lightgreen; width: 75px;">75px</div>  
+        <div style="background-color: lightsalmon; width: 75px;">75px</div>  
+       </div>
+       <br>
+       <br>
+    
+       <!--12d-->
+       <div style="display: flex; align-items: center; justify-content: space-between; border: 2px solid gray; height: 50px;">
+        <div style="background-color: skyblue; width: 75px;">75px</div>  
+        <div style="background-color: lightpink; width: 75px;">75px</div>  
+       </div>
+        <br>
+        <br>
+
+       <!--12e-->
+       <div class="outer-flex">
+           <div class="inner-flex">
+               <p class="left-para">Home</p>
+               <p class="right-para">14</p>
+            </div>
+            <div class="inner-flex">
+                <p class="left-para">Notifications</p>
+                <p class="right-para2">3</p>
+             </div>
+             <div class="inner-flex">
+                <p class="left-para">Messages</p>
+                <p class="right-para3">5</p>
+             </div>
+       </div>
+       <br>
+       <br>
+    
+       <!--12f-->
+       <div class="main-flex">
+           <div class="left-flex">
+               <p>Home</p>
+           </div>
+           <div class="middle-flex">
+               <input class="search-bar" type="text" placeholder="Search">
+           </div>
+           <div class="right-flex">
+               <button class="download-button">
+                   Download
+               </button>
+           </div>
+       </div>
+       <br>
+       <br>
+
+       <!--12g-->
+       <div style="width:310px;">
+       <div class="main-div">
+            <div class="profile-div">
+                <img class="profile-pic" src="../YT/Logo/channel-1.jpeg">
+            </div>
+            <div class="para-div">
+                <p class="one">oliver</p>
+                <p class="two">the cat</p>
+                <p class="three">Popular</p>
+            </div>
+            <div>
+                <button class="follow-button">Follow</button>
+            </div>
+       </div>
+        <div class="main-div">
+            <div class="profile-div">
+                <img class="profile-pic" src="../YT/Logo/channel-2.jpeg">
+            </div>
+            <div class="para-div">
+                <p class="one">Mimi</p>
+                <p class="two">Sleepy cat</p>
+                <p class="three">Popular</p>
+            </div>
+            <div>
+                <button class="follow-button">Follow</button>
+            </div>
+    </div>
+    <div class="main-div">
+        <div class="profile-div">
+            <img class="profile-pic" src="../YT/Logo/channel-3.jpeg">
+        </div>
+        <div class="para-div">
+            <p class="one">Rex</p>
+            <p class="two">Happy Building</p>
+            <p class="three">Popular</p>
+        </div>
+        <div>
+            <button class="follow-button">Follow</button>
+        </div>
+    </div>
+</div>
+    </body>
+</html>

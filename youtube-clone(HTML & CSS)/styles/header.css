@@ -1,0 +1,133 @@
+
+
+.header{
+    height:61px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border-bottom-color: gray;
+    border-bottom-width: 1px  ;
+    z-index: 100;
+    
+}
+
+.left-section{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.hamburger-icon{
+    height: 26px;
+    margin: 0px 24px;
+}
+
+.youtube-logo-icon{
+    height: 22px;
+}
+
+.middle-section{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex: 1;
+    margin-left: 40px;
+    margin-right: 30px;
+    max-width: 500px;
+}
+.searchbar{
+    font-size: 18px;
+    padding: 2px 12px;
+    flex:1;
+    height: 35px;
+    border:1px solid rgb(192,192,192);
+    border-radius:  2px 0 0 2px;
+    box-shadow: 0px 1px 2px #eeeeee;
+}
+
+.searchbar::placeholder { 
+    font-family: Roboto;
+}
+textarea:focus, input:focus{
+    outline:none;
+}
+
+.search-btn{
+    height: 41px;
+    width: 60px;
+    background-color: rgb(247,247,247);
+    border:1px solid rgb(192,192,192);
+    vertical-align: center;
+    margin-left: -1px;
+    margin-right: 10px;
+}
+
+
+.voice-search-btn{
+    height: 41px;
+    width: 40px;
+    background-color: #f8f8f8;
+    border: none;
+    border-radius: 80px;
+    margin-top: 2px;
+}
+
+.search-icon{
+    height: 22px;
+    margin-top: 2px;
+}   
+
+.voice-search-icon{
+    height: 28px;
+}
+
+.right-section{
+    display: flex;
+    flex-direction: row;
+    width: 220px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.right-img1{
+    height: 28px;
+}
+
+.right-img2{
+    height: 28px;
+}
+
+.right-img3{
+    height: 28px;  
+}
+
+.notification-alert{
+    position: relative;
+}
+
+.notification{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+    border: none;
+    color: #eeeeee;
+    border-radius: 16px;
+    padding:2px 5px;
+    font-family: roboto;
+    font-size: 10px;
+
+}
+
+.right-img4{
+    height: 34px;
+    border-radius: 80px;
+    margin-right:20px; 
+}
+

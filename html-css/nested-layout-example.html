@@ -1,0 +1,337 @@
+<style>
+
+.final-layout{
+    width: 300px;   
+    height: 200px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.profile-pic1{
+    width: 50px;
+    height: 50px;
+    border-radius: 80px;
+    object-fit: cover;
+    object-position: left;
+}
+
+.profile-pic2{
+    width: 50px;
+    height: 50px;
+    border-radius: 80px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.profile-pic3{
+    width: 50px;
+    height: 50px;
+    border-radius: 80px;
+    object-fit: cover;
+    object-position: right;
+}
+
+.profilepic-div{
+    display: inline-block;
+}
+
+.info{
+    width:150px;
+    display: inline-block;
+    height: 65px;
+    vertical-align: top;
+    padding-left: 5px;
+}
+
+.follow-button-div{
+    width:80px;
+    display: inline-block;
+    height: 70px;
+    vertical-align: top;
+}
+
+.follow-button{
+    margin-top: 13px;
+    background-color: rgb(28, 170, 236);
+    border: none;
+    padding: 7px 10px;
+    color: white;
+    font-weight: bold;
+    font-family: arial;
+    border-radius: 4px;
+}
+
+.name{
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+
+.type{
+    font-size: 14px;
+    color: #606060;
+    margin-bottom: 3px;
+}
+
+.status{
+    font-size: 12px;
+    color:#606060;
+    margin-bottom: 4px;
+}
+
+p{
+    margin-top: 0;
+    margin-bottom: 0; 
+    font-family: Roboto,arial;
+}
+
+.final-layout2{
+    display: inline-block;
+}
+
+.thumbnail{
+    height: 80px;
+    width: 150px;
+}
+
+.thumbnail-div{
+    display: inline-block;
+    width:150px;
+    height: 80px;
+}
+
+.para-div{
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+}
+
+.title{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    margin-bottom: 5px;
+}
+
+.youtuber{
+    font-size: 10px;
+    color: #606066;
+    margin-bottom: 2px;
+}   
+
+.stats{
+    font-size: 10px;
+    color: #606066;
+}
+
+.multiple-cards{
+    margin: 20px;
+    
+}
+
+.one-card{
+    display: inline-block;
+    width:150px;
+    box-shadow: 2px 2px 5px rgba(0, 0 ,0,0.5);
+    border-radius: 2px;
+    margin: 20px 5px;
+}
+
+.two-card{
+    display: inline-block;
+    width:150px;
+    box-shadow: 2px 2px 5px rgba(0, 0 ,0,0.5);
+    border-radius: 2px;
+    margin: 20px 5px;
+}
+
+.three-card{
+    display: inline-block;
+    width:150px;
+    box-shadow: 2px 2px 5px rgba(0, 0 ,0,0.5);
+    border-radius: 2px;
+    margin: 20px 5px;
+}
+
+.card1-img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 5px;
+    object-position: right;
+}
+
+.card2-img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 5px;
+    object-position: right;
+}
+
+.card3-img{
+    width: 150px;
+    height: 150px;
+    object-fit: fill;
+    margin-bottom: 5px;
+}
+
+.mutual-img{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 80px;
+    margin-left: 5px; 
+    vertical-align: middle;
+}
+
+.card-mutual{
+    display: inline-block;
+    font-size: 10px;
+    vertical-align: middle;
+    color: #606060;
+}
+
+.card-name{
+    margin-left: 5px;
+    vertical-align: middle;
+    font-size: 12px;
+    font-weight: 600 ;
+}
+
+.card-button{
+    margin: 6px 0px 5px 5px;
+    padding: 6px 12px;
+    font-size: 10px;
+    background-color: rgb(0, 105, 241);
+    border:none;
+    border-radius: 2px;
+    color :white;
+}
+
+</style>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="CSS/challenge10.css">
+        <title>Nested layout Challenge</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="final-layout">
+            <div class="card1">
+                <div class="profilepic-div">
+                    <img class="profile-pic1" src="images/thumbnail-1.webp">
+                </div> 
+                <div class="Info">
+                    <p class="Name">oliver</p>
+                    <p class="Type">the cat</p>
+                    <p class="status">Popular</p>
+                </div>
+                <div class="follow-button-div">
+                    <button class="follow-button">
+                        Follow
+                    </button>
+                </div>   
+            </div>  
+            <div class="card2">
+                <div class="profilepic-div">
+                    <img class="profile-pic2" src="images/thumbnail-1.webp">
+                </div>
+                <div class="Info">
+                    <p class="Name">Mimi</p>
+                    <p class="Type">Sleepy Cat</p>
+                    <p class="status">Popular</p>
+                </div>
+                <div class="follow-button-div">
+                    <button class="follow-button">
+                        Follow
+                    </button>
+                </div>   
+            </div>   
+            <div class="card3">
+                <div class="profilepic-div">
+                    <img class="profile-pic3" src="images/thumbnail-1.webp">
+                </div>
+                <div class="Info">
+                    <p class="Name">Rex</p>
+                    <p class="Type">Happy Building</p>
+                    <p class="status">Popular</p>
+                </div>
+                <div class="follow-button-div">
+                    <button class="follow-button">
+                        Follow
+                    </button>
+                </div>   
+            </div>      
+        </div>
+        <div class="final-layout2">
+            <div class="channel1">
+                <div class="thumbnail-div">
+                    <img class="Thumbnail" src="images/thumbnail-1.webp">
+                </div>
+                <div class="para-div">
+                    <p class="Title">How to Complete against CS degree(as a self taught dev)</p>
+                    <p class="youtuber">SuperSimpledev</p>
+                    <p class="stats">1.5K views &middot; 4 months ago</p>
+                </div>    
+            </div>
+            <div class="channel2">
+                <div class="thumbnail-div">
+                    <img class="Thumbnail" src="images/thumbnail 2.jpg">
+                </div>
+                <div class="para-div">
+                    <p class="Title">Which programming language to learn first 2022 (with charts)</p>
+                    <p class="youtuber">SuperSimpledev</p>
+                    <p class="stats">5.6K views &middot; 11 months ago</p>
+                </div>    
+            </div>
+            <div class="channel3">
+                <div class="thumbnail-div">
+                    <img class="Thumbnail" src="images/thumbnail 3.jpg">
+                </div>
+                <div class="para-div">
+                    <p class="Title">Frontend web development - a complete overview (2021) </p>
+                    <p class="youtuber">SuperSimpledev</p>
+                    <p class="stats">1K views &middot; 4 months ago</p>
+                </div>    
+            </div>
+        </div>
+
+        <div class="multiple-cards">
+            <div class="one-card">
+                    <img class="card1-img" src="images/thumbnail-1.webp">
+                    <p class="card-name">Oliver</p>
+                <div>
+                    <img class="mutual-img" src="../YT/Logo/channel-1.jpeg">
+                    <p class="card-mutual">2 mutual friends</p>
+                </div>   
+                <button class="card-button">Add Friend</button>  
+            </div>
+
+            <div class="one-card">
+                <img class="card1-img" src="images/thumbnail-1.webp">
+                <p class="card-name">Mimi</p>
+            <div>
+                <img class="mutual-img" src="../YT/Logo/channel-1.jpeg">
+                <p class="card-mutual">2 mutual friends</p>
+            </div>   
+            <button class="card-button">Add Friend</button>  
+        </div>
+        <div class="one-card">
+            <img class="card1-img" src="images/thumbnail-1.webp">
+            <p class="card-name">Rex</p>
+        <div>
+            <img class="mutual-img" src="../YT/Logo/channel-1.jpeg">
+            <p class="card-mutual">2 mutual friends</p>
+        </div>   
+        <button class="card-button">Add Friend</button>  
+    </div>
+            
+            </div>    
+        </div>
+    </body>
+</html>

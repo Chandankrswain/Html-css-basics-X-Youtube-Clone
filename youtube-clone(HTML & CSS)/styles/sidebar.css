@@ -1,0 +1,49 @@
+.sidebar{
+    width: 200px;
+    background-color: white;
+    position: fixed;
+    top: 61px;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    z-index: 100;
+}
+
+.options{
+    display: flex;
+    flex-direction: column; 
+    border-bottom: black; 
+    border-width: 3px;
+}
+
+.tab{
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.tab:hover{
+    background-color: #dbdbdb ;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.tab:active{
+    background-color: #bcbcbc ;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.icon{
+    width:24px;
+    padding: 0px 15px;
+}
+
+.icon-title{
+    flex:1;
+    padding-left: 9px;
+    font-size:14px;
+    font-weight: 200;
+}
+
+

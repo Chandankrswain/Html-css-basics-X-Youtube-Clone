@@ -1,0 +1,62 @@
+<style>
+    .container{
+        display: grid;
+        margin-bottom: 5px;
+        grid-template-columns: 100px 100px 200px;
+    }
+
+    .top{
+        background-color: aquamarine;
+    }
+
+    .bottom{
+        background-color: pink;
+    }
+    .middle{
+        background-color:yellowgreen
+    }
+
+</style>
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Grid Practice
+        </title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="top">div 1</div>
+            <div class="bottom">div 2<p>text</p></div>
+        </div>   
+
+        <div class="container">
+            <div class="top">100px</div>
+            <div class="middle">100px<p>text</p></div>
+            <div class="bottom"><p>text</p></div>
+        </div>   
+
+        <div style="display: grid; grid-template-columns: 100px 1fr; margin-top:5px;">
+            <div class="top">div 1</div>
+            <div class="bottom">div 2</div>
+        </div>   
+
+        <div style="display: grid; grid-template-columns: 100px 1fr 2fr; margin-top:5px;">
+            <div class="top">div 1</div>
+            <div class="bottom">div 2</div>
+            <div class="middle">div 3</div>
+        </div>   
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; margin-top:5px; height: 400px; column-gap: 20px; row-gap:20px">
+            <div class="top">div 1</div>
+            <div class="bottom">div 2</div>
+            <div class="middle">div 3</div>
+            <div class="middle">div 4</div>
+            <div class="top">div 5</div>
+            <div class="bottom">div 6</div>
+        </div>  
+
+    </body>
+</html>
